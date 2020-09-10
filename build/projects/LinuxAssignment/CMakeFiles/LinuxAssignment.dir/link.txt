@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLinuxAssignment.a  CMakeFiles/LinuxAssignment.dir/code/HardwareSpecs.cpp.o
+/usr/bin/ranlib libLinuxAssignment.a

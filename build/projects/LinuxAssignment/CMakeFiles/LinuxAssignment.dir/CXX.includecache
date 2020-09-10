@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/philar-8/S0017D-Lab1/projects/LinuxAssignment/code/HardwareSpecs.cpp
+HardwareSpecs.h
+/home/philar-8/S0017D-Lab1/projects/LinuxAssignment/code/HardwareSpecs.h
+sys/sysinfo.h
+/home/philar-8/S0017D-Lab1/projects/LinuxAssignment/code/sys/sysinfo.h
+sys/utsname.h
+/home/philar-8/S0017D-Lab1/projects/LinuxAssignment/code/sys/utsname.h
+sys/types.h
+-
+sys/wait.h
+-
+
+/home/philar-8/S0017D-Lab1/projects/LinuxAssignment/code/HardwareSpecs.h
+unistd.h
+/home/philar-8/S0017D-Lab1/projects/LinuxAssignment/code/unistd.h
+stdio.h
+-
+thread
+-
+

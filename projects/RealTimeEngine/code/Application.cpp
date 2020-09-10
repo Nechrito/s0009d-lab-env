@@ -11,7 +11,7 @@ Application::Application()
 {
 	// window
 	this->window = nullptr;
-	this->windowTitle = this->baseTitleString = "S0006E | Philip Lindh | Check The Console! | ";
+	this->windowTitle = this->baseTitleString = "Philip Lindh | Check The Console! | ";
 
 	// camera
 	Camera::Instance().SetViewport(width, height);
@@ -43,7 +43,7 @@ bool Application::Open()
 	this->window->SetKeyPressFunction([this] (int32, const int32 button, const int32 action, int32)
 	{
 		const auto iterator = find(cachedKeys.begin(), cachedKeys.end(), button);
-		
+
 		if (action == 0)
 		{
 			if (iterator != cachedKeys.end()) // clear all cached keys which have been released
@@ -53,7 +53,7 @@ bool Application::Open()
 			cachedKeys.push_back(button);
 
 		// released shift
-		if (action == 0 && sprint && button == 42)
+		if (action == 0 && sprint && button == 50)
 			sprint = false;
 
 		// current key isn't being pressed, boring 
@@ -62,13 +62,13 @@ bool Application::Open()
 
 		switch (button)
 		{
-			case 1: this->window->Close(); break; // Esc
+			case 9: this->window->Close(); break; // Esc
 
-			case 3: rotateModel = !rotateModel;	break; // 2
-			case 6: cpuRender = !cpuRender; break; // 5
-			case 42: sprint = !sprint;	break; // Shift
+			case 11: rotateModel = !rotateModel; break; // 2
+			case 14: cpuRender   = !cpuRender;   break; // 5
+			case 50: sprint = !sprint;  break; // Shift
 			
-			case 2: // 1
+			case 10: // 1
 			{
 				drawWireframe = !drawWireframe;
 					
@@ -79,7 +79,7 @@ bool Application::Open()
 			}
 			break;
 			
-			case 4: // 3
+			case 12: // 3
 			{
 				if (cpuRender)
 				{
@@ -93,7 +93,7 @@ bool Application::Open()
 			}
 			break;
 			
-			case 5: // 4
+			case 13: // 4
 				{
 					for (auto& light : lightNodes)
 					{
@@ -105,9 +105,9 @@ bool Application::Open()
 				}
 			break;
 
-			case 16: Camera::Instance().SetCameraMode(CameraMode::ORBIT);    break; // Q
-			case 18: Camera::Instance().SetCameraMode(CameraMode::FREELOOK); break; // E
-			case 19: Camera::Instance().SetCameraMode(CameraMode::FORCED);   break; // R
+			case 24: Camera::Instance().SetCameraMode(CameraMode::ORBIT);    break; // Q
+			case 26: Camera::Instance().SetCameraMode(CameraMode::FREELOOK); break; // E
+			case 27: Camera::Instance().SetCameraMode(CameraMode::FORCED);   break; // R
 		}
 	});
 
@@ -225,7 +225,7 @@ void Application::Run()
 	std::cout << "E: Camera Free-look\n";
 	std::cout << "R: Camera Look At Target\n";
 
-	std::cout << "------------------------\n";
+	std::cout << "---------LINUX----------\n";
 
 	// time since launch, used for computing the fps
 	// todo: can be changed to CMath, but gotta debug to determine which is faster
@@ -250,13 +250,13 @@ void Application::Run()
 		{
 			switch (key)
 			{ 
-				case 17: Camera::Instance().Translate(CameraDirection::FORWARD, deltaTime, sprint);  break; // W
-				case 30: Camera::Instance().Translate(CameraDirection::LEFT, deltaTime, sprint);     break; // A
-				case 31: Camera::Instance().Translate(CameraDirection::BACKWARD, deltaTime, sprint); break; // S
-				case 32: Camera::Instance().Translate(CameraDirection::RIGHT, deltaTime, sprint);    break; // D
+				case 25: Camera::Instance().Translate(CameraDirection::FORWARD, deltaTime, sprint);  break; // W
+				case 38: Camera::Instance().Translate(CameraDirection::LEFT, deltaTime, sprint);     break; // A
+				case 39: Camera::Instance().Translate(CameraDirection::BACKWARD, deltaTime, sprint); break; // S
+				case 40: Camera::Instance().Translate(CameraDirection::RIGHT, deltaTime, sprint);    break; // D
 				
-				case 328: for (auto& light : lightNodes) light.IncreaseIntensity(deltaTime); break; // Up
-				case 336: for (auto& light : lightNodes) light.DecreaseIntensity(deltaTime); break; // Down
+				case 111: for (auto& light : lightNodes) light.IncreaseIntensity(deltaTime); break; // Up
+				case 116: for (auto& light : lightNodes) light.DecreaseIntensity(deltaTime); break; // Down
 			}
 		}
 

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libResource.a  CMakeFiles/Resource.dir/code/MaterialResource.cpp.o CMakeFiles/Resource.dir/code/MeshResource.cpp.o CMakeFiles/Resource.dir/code/Shader.cpp.o CMakeFiles/Resource.dir/code/TextureResource.cpp.o CMakeFiles/Resource.dir/code/VBOTrimmer.cpp.o
+/usr/bin/ranlib libResource.a

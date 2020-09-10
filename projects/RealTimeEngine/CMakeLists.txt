@@ -10,8 +10,8 @@ SOURCE_GROUP("Header Files" FILES ${files_headers})
 SOURCE_GROUP("Source Files" FILES ${files_sources})
 
 ADD_EXECUTABLE(RealTimeEngine ${files_headers} ${files_sources})
-TARGET_LINK_LIBRARIES(RealTimeEngine core render MathLib Resource GLSL)
-ADD_DEPENDENCIES(RealTimeEngine core render MathLib Resource GLSL)
+TARGET_LINK_LIBRARIES(RealTimeEngine core render MathLib LinuxAssignment Resource GLSL)
+ADD_DEPENDENCIES(RealTimeEngine core render MathLib LinuxAssignment Resource GLSL)
 
 
 
