@@ -30,7 +30,7 @@ void HardwareSpecs::ForkSum(int processes)
         auto childpid = fork();
         if (childpid == 0)
         {
-            auto temp = ComputeSum(1, 50000);
+            auto temp = ComputeSum(1, threshold);
 
             cout << "[" << getpid() << "]" << " Sum: " << temp << " | Time Elapsed: " << CMath::TimeSince(start) << "s" << endl;
 
@@ -48,7 +48,7 @@ void HardwareSpecs::ThreadSum(int threadCount)
 
     for (int i = 0; i < threadCount; i++)
     {
-        thread t = thread(&HardwareSpecs::ComputeSumStatic, 1, 50000);
+        thread t = thread(&HardwareSpecs::ComputeSumStatic, 1, threshold);
         threads.push_back(move(t));
     }
 

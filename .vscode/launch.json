@@ -11,7 +11,7 @@
             // "preLaunchTask": "copyshaders",
             // Resolved by CMake Tools:
             "program": "${command:cmake.launchTargetPath}",
-            "args": ["-i", "-f", "1", "-t", "1"],
+            "args": ["-i", "-f", "2", "-t", "2"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}/bin/",
             "environment": [
