@@ -389,9 +389,9 @@ engine/render/preinstall:
 # Target rules for target engine/render/CMakeFiles/render.dir
 
 # All Build rule for target.
+engine/render/CMakeFiles/render.dir/all: exts/glfw/src/CMakeFiles/glfw.dir/all
 engine/render/CMakeFiles/render.dir/all: exts/CMakeFiles/imgui.dir/all
 engine/render/CMakeFiles/render.dir/all: exts/glew/CMakeFiles/glew.dir/all
-engine/render/CMakeFiles/render.dir/all: exts/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f engine/render/CMakeFiles/render.dir/build.make engine/render/CMakeFiles/render.dir/depend
 	$(MAKE) -f engine/render/CMakeFiles/render.dir/build.make engine/render/CMakeFiles/render.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/philar-8/S0017D-Lab1/build/CMakeFiles --progress-num=49,50,51 "Built target render"
@@ -476,10 +476,10 @@ projects/GLSL/preinstall:
 # Target rules for target projects/GLSL/CMakeFiles/GLSL.dir
 
 # All Build rule for target.
-projects/GLSL/CMakeFiles/GLSL.dir/all: exts/CMakeFiles/imgui.dir/all
-projects/GLSL/CMakeFiles/GLSL.dir/all: exts/glew/CMakeFiles/glew.dir/all
 projects/GLSL/CMakeFiles/GLSL.dir/all: exts/glfw/src/CMakeFiles/glfw.dir/all
 projects/GLSL/CMakeFiles/GLSL.dir/all: engine/core/CMakeFiles/core.dir/all
+projects/GLSL/CMakeFiles/GLSL.dir/all: exts/CMakeFiles/imgui.dir/all
+projects/GLSL/CMakeFiles/GLSL.dir/all: exts/glew/CMakeFiles/glew.dir/all
 	$(MAKE) -f projects/GLSL/CMakeFiles/GLSL.dir/build.make projects/GLSL/CMakeFiles/GLSL.dir/depend
 	$(MAKE) -f projects/GLSL/CMakeFiles/GLSL.dir/build.make projects/GLSL/CMakeFiles/GLSL.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/philar-8/S0017D-Lab1/build/CMakeFiles --progress-num=1,2 "Built target GLSL"
@@ -534,10 +534,11 @@ projects/LinuxAssignment/preinstall:
 # Target rules for target projects/LinuxAssignment/CMakeFiles/LinuxAssignment.dir
 
 # All Build rule for target.
-projects/LinuxAssignment/CMakeFiles/LinuxAssignment.dir/all: exts/CMakeFiles/imgui.dir/all
-projects/LinuxAssignment/CMakeFiles/LinuxAssignment.dir/all: exts/glew/CMakeFiles/glew.dir/all
 projects/LinuxAssignment/CMakeFiles/LinuxAssignment.dir/all: exts/glfw/src/CMakeFiles/glfw.dir/all
 projects/LinuxAssignment/CMakeFiles/LinuxAssignment.dir/all: engine/core/CMakeFiles/core.dir/all
+projects/LinuxAssignment/CMakeFiles/LinuxAssignment.dir/all: exts/CMakeFiles/imgui.dir/all
+projects/LinuxAssignment/CMakeFiles/LinuxAssignment.dir/all: exts/glew/CMakeFiles/glew.dir/all
+projects/LinuxAssignment/CMakeFiles/LinuxAssignment.dir/all: projects/MathLib/CMakeFiles/MathLib.dir/all
 	$(MAKE) -f projects/LinuxAssignment/CMakeFiles/LinuxAssignment.dir/build.make projects/LinuxAssignment/CMakeFiles/LinuxAssignment.dir/depend
 	$(MAKE) -f projects/LinuxAssignment/CMakeFiles/LinuxAssignment.dir/build.make projects/LinuxAssignment/CMakeFiles/LinuxAssignment.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/philar-8/S0017D-Lab1/build/CMakeFiles --progress-num=3,4 "Built target LinuxAssignment"
@@ -550,7 +551,7 @@ all: projects/LinuxAssignment/CMakeFiles/LinuxAssignment.dir/all
 
 # Build rule for subdir invocation for target.
 projects/LinuxAssignment/CMakeFiles/LinuxAssignment.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/philar-8/S0017D-Lab1/build/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/philar-8/S0017D-Lab1/build/CMakeFiles 35
 	$(MAKE) -f CMakeFiles/Makefile2 projects/LinuxAssignment/CMakeFiles/LinuxAssignment.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/philar-8/S0017D-Lab1/build/CMakeFiles 0
 .PHONY : projects/LinuxAssignment/CMakeFiles/LinuxAssignment.dir/rule
@@ -592,10 +593,10 @@ projects/MathLib/preinstall:
 # Target rules for target projects/MathLib/CMakeFiles/MathLib.dir
 
 # All Build rule for target.
-projects/MathLib/CMakeFiles/MathLib.dir/all: exts/CMakeFiles/imgui.dir/all
-projects/MathLib/CMakeFiles/MathLib.dir/all: exts/glew/CMakeFiles/glew.dir/all
 projects/MathLib/CMakeFiles/MathLib.dir/all: exts/glfw/src/CMakeFiles/glfw.dir/all
 projects/MathLib/CMakeFiles/MathLib.dir/all: engine/core/CMakeFiles/core.dir/all
+projects/MathLib/CMakeFiles/MathLib.dir/all: exts/CMakeFiles/imgui.dir/all
+projects/MathLib/CMakeFiles/MathLib.dir/all: exts/glew/CMakeFiles/glew.dir/all
 	$(MAKE) -f projects/MathLib/CMakeFiles/MathLib.dir/build.make projects/MathLib/CMakeFiles/MathLib.dir/depend
 	$(MAKE) -f projects/MathLib/CMakeFiles/MathLib.dir/build.make projects/MathLib/CMakeFiles/MathLib.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/philar-8/S0017D-Lab1/build/CMakeFiles --progress-num=5,6 "Built target MathLib"
@@ -650,14 +651,14 @@ projects/RealTimeEngine/preinstall:
 # Target rules for target projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir
 
 # All Build rule for target.
-projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/all: exts/CMakeFiles/imgui.dir/all
-projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/all: exts/glew/CMakeFiles/glew.dir/all
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/all: exts/glfw/src/CMakeFiles/glfw.dir/all
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/all: engine/core/CMakeFiles/core.dir/all
+projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/all: projects/Resource/CMakeFiles/Resource.dir/all
+projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/all: exts/CMakeFiles/imgui.dir/all
+projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/all: exts/glew/CMakeFiles/glew.dir/all
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/all: projects/GLSL/CMakeFiles/GLSL.dir/all
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/all: projects/LinuxAssignment/CMakeFiles/LinuxAssignment.dir/all
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/all: projects/MathLib/CMakeFiles/MathLib.dir/all
-projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/all: projects/Resource/CMakeFiles/Resource.dir/all
 	$(MAKE) -f projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/build.make projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/depend
 	$(MAKE) -f projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/build.make projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/philar-8/S0017D-Lab1/build/CMakeFiles --progress-num=7,8,9,10,11,12,13,14 "Built target RealTimeEngine"
@@ -712,10 +713,10 @@ projects/Resource/preinstall:
 # Target rules for target projects/Resource/CMakeFiles/Resource.dir
 
 # All Build rule for target.
-projects/Resource/CMakeFiles/Resource.dir/all: exts/CMakeFiles/imgui.dir/all
-projects/Resource/CMakeFiles/Resource.dir/all: exts/glew/CMakeFiles/glew.dir/all
 projects/Resource/CMakeFiles/Resource.dir/all: exts/glfw/src/CMakeFiles/glfw.dir/all
 projects/Resource/CMakeFiles/Resource.dir/all: engine/core/CMakeFiles/core.dir/all
+projects/Resource/CMakeFiles/Resource.dir/all: exts/CMakeFiles/imgui.dir/all
+projects/Resource/CMakeFiles/Resource.dir/all: exts/glew/CMakeFiles/glew.dir/all
 projects/Resource/CMakeFiles/Resource.dir/all: projects/MathLib/CMakeFiles/MathLib.dir/all
 	$(MAKE) -f projects/Resource/CMakeFiles/Resource.dir/build.make projects/Resource/CMakeFiles/Resource.dir/depend
 	$(MAKE) -f projects/Resource/CMakeFiles/Resource.dir/build.make projects/Resource/CMakeFiles/Resource.dir/build

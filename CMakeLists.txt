@@ -18,7 +18,7 @@ ENDIF()
 ENDMACRO(TARGET_PCH)
 
 IF(CMAKE_COMPILER_IS_GNUCXX)
-    SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
+    SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -pthread")
     set(CMAKE_CXX_STANDARD 17)
     link_libraries(-lstdc++fs)
 ENDIF()

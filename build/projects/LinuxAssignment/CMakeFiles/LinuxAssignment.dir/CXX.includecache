@@ -6,9 +6,23 @@
 
 #IncludeRegexTransform: 
 
+../projects/MathLib/code/CMath.h
+algorithm
+-
+vector
+-
+chrono
+-
+
 /home/philar-8/S0017D-Lab1/projects/LinuxAssignment/code/HardwareSpecs.cpp
 HardwareSpecs.h
 /home/philar-8/S0017D-Lab1/projects/LinuxAssignment/code/HardwareSpecs.h
+math.h
+-
+CMath.h
+/home/philar-8/S0017D-Lab1/projects/LinuxAssignment/code/CMath.h
+thread
+-
 sys/sysinfo.h
 /home/philar-8/S0017D-Lab1/projects/LinuxAssignment/code/sys/sysinfo.h
 sys/utsname.h
@@ -16,6 +30,8 @@ sys/utsname.h
 sys/types.h
 -
 sys/wait.h
+-
+iostream
 -
 
 /home/philar-8/S0017D-Lab1/projects/LinuxAssignment/code/HardwareSpecs.h

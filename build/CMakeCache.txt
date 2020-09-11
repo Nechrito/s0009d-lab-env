@@ -249,7 +249,7 @@ LIB_SUFFIX:STRING=
 LinuxAssignment_BINARY_DIR:STATIC=/home/philar-8/S0017D-Lab1/build/projects/LinuxAssignment
 
 //Dependencies for the target
-LinuxAssignment_LIB_DEPENDS:STATIC=general;-lstdc++fs;general;core;general;render;
+LinuxAssignment_LIB_DEPENDS:STATIC=general;-lstdc++fs;general;MathLib;general;core;general;render;
 
 //Value Computed by CMake
 LinuxAssignment_SOURCE_DIR:STATIC=/home/philar-8/S0017D-Lab1/projects/LinuxAssignment

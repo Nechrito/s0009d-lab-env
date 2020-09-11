@@ -15,6 +15,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../projects/MathLib/code"
   "../engine"
   "../exts/glew/include"
   "../exts/glfw/include"
@@ -25,6 +26,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/philar-8/S0017D-Lab1/build/projects/MathLib/CMakeFiles/MathLib.dir/DependInfo.cmake"
   "/home/philar-8/S0017D-Lab1/build/engine/core/CMakeFiles/core.dir/DependInfo.cmake"
   "/home/philar-8/S0017D-Lab1/build/engine/render/CMakeFiles/render.dir/DependInfo.cmake"
   "/home/philar-8/S0017D-Lab1/build/exts/glew/CMakeFiles/glew.dir/DependInfo.cmake"

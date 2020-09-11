@@ -13,16 +13,19 @@ public:
     HardwareSpecs();
     ~HardwareSpecs();
 
-    // maths
-    int Sum(int a, int b, int c = 0, int d = 0);
-
-    // data
     int GetProcessors();
 
-    int ForkSum(int processes);
+    void ForkSum(int processes);
+
+    void ThreadSum(int threads);
+
 private:
+
     int threshold = 50000;
+
     unsigned long long int sum;
-    void ComputeSum(int threshold);
+    unsigned long long int ComputeSum(int start, int end);
+
+    static void ComputeSumStatic(int start, int end);
 
 };

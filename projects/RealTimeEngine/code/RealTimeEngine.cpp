@@ -55,15 +55,16 @@ int main(int argc, char** argv)
 			else if (argument == "-f")
 			{
 				int forkCount = atoi(argv[i + 1]);
-    			cout << "Calculating sum on " << forkCount << " processors" << endl;
-
-				auto sum = specs.ForkSum(forkCount);
+    			cout << "Calculating sum on " << forkCount << " forks" << endl;
+				specs.ForkSum(forkCount);
 			}
 
 			// Similar to -f but using threads instead of forks
-			else if (argument == "-t X")
+			else if (argument == "-t")
 			{
-				
+				int threadCount = atoi(argv[i + 1]);
+    			cout << "Calculating sum on " << threadCount << " threads" << endl;
+				specs.ThreadSum(threadCount);
 			}
 		} 
     }
