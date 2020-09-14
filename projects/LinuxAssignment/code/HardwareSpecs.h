@@ -21,6 +21,10 @@ public:
 
 private:
 
+    float test1 = 0;
+    float test2 = 0;
+    float test3 = 0;
+
     int threshold = 50000;
 
     unsigned long long int sum;
