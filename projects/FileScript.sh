@@ -3,7 +3,6 @@
 # Copyright © 2020  Philip Lindh
 # All rights reserved
 
-# Changes file extension
 ChangeExtension()
 {
     echo "Do not include any * or ."
@@ -19,19 +18,39 @@ ChangeExtension()
 
 ChangeFileContent()
 {
-    read -p "File: " currentFile
+    read -p "Directory: " currentDir
     read -p 'Change all occurances of: ' fromExt
     read -p 'Replace with: ' toExt
     
+    for file in $currentDir; do
+        echo "Changing contents of $currentFile..."; 
+        sed -i "s/"${fromExt}"/"${toExt}"/g" $currentFile;
+    done
     
-    echo "Changing contents of $currentFile..."; 
-    sed -i "s/"${fromExt}"/"${toExt}"/g" $currentFile
     
+    echo "Done."
+}
+
+AddAuthor()
+{
+    author="// Copyright © 2020  Philip Lindh \n// All rights reserved\n"
+    
+    find . -name "*.h"|while read file; do
+        echo "Changing contents of "${file}"...";
+        sed -i "1i${author}" $file
+    done
+    
+    find . -name "*.cpp"|while read file; do
+        echo "Changing contents of "${file}"...";
+        sed -i "1i${author}" $file
+    done
+  
     echo "Done."
 }
 
 echo "1: Change file-extension"
 echo "2: Change the contents of a file"
+echo "3: Add Author Trademark"
 
 read option
 
@@ -42,6 +61,10 @@ then
 elif [ $option = "2" ]
 then
     ChangeFileContent
+    exit 0
+elif [ $option = "3" ]
+then
+    AddAuthor
     exit 0
 else
     echo "Failed to recognize your input, please use numbers."

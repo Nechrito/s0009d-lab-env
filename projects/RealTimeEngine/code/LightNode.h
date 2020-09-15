@@ -1,3 +1,6 @@
+// Copyright © 2020  Philip Lindh 
+// All rights reserved
+
 #pragma once
 #include "Vector3.h"
 #include "Shader.h"

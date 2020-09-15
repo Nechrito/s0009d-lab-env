@@ -1,3 +1,6 @@
+// Copyright © 2020  Philip Lindh 
+// All rights reserved
+
 #pragma once
 #include <Vector2.h>
 #include "Vector4.h"

@@ -1,3 +1,6 @@
+// Copyright © 2020  Philip Lindh 
+// All rights reserved
+
 #include "VBOTrimmer.h"
 
 void VBOTrimmer::Trim(std::vector<Vector4>& positions, std::vector<Vector4>& normals, std::vector<Vector2>& textureCoords, std::vector<unsigned short>& indexBuffer)

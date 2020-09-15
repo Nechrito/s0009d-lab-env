@@ -1,3 +1,6 @@
+// Copyright © 2020  Philip Lindh 
+// All rights reserved
+
 #include "Transform.h"
 
 void Transform::SetPosition(Vector3 position)

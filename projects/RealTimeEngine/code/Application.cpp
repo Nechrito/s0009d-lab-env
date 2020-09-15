@@ -1,3 +1,6 @@
+// Copyright © 2020  Philip Lindh 
+// All rights reserved
+
 #include "config.h"
 #include "Application.h"
 #include "Model.h"

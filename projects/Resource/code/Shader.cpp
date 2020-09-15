@@ -1,3 +1,6 @@
+// Copyright © 2020  Philip Lindh 
+// All rights reserved
+
 
 #include "Shader.h"
 #include <fstream>
