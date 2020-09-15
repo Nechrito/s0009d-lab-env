@@ -10,7 +10,7 @@ using namespace std;
 
 bool isInteger(const string& s)
 {
-   if(s.empty() || ((!isdigit(s[0])) && (s[0] != '-') && (s[0] != '+')))
+   if(s.empty() || !isdigit(s[0]))
    	return false;
 
    char * p;

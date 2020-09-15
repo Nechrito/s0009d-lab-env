@@ -19,14 +19,13 @@ ChangeExtension()
 
 ChangeFileContent()
 {
+    read -p "File: " currentFile
     read -p 'Change all occurances of: ' fromExt
     read -p 'Replace with: ' toExt
     
     
-    for f in $toExt; do
-        echo "Changing contents of $f..."; 
-        sed -i 's/double/float/g' $f
-    done
+    echo "Changing contents of $currentFile..."; 
+    sed -i "s/"${fromExt}"/"${toExt}"/g" $currentFile
     
     echo "Done."
 }
