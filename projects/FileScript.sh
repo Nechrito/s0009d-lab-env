@@ -9,10 +9,11 @@ ChangeExtension()
     read -p "Change file extension from: " fileFrom
     read -p "Change file extension to: " fileTo
     
-    for file in *.${fileFrom}; do 
+    find . -name "*.${fileFrom}"|while read file; do
+        echo "Changing contents of "${file}"...";
         mv "$file" "${file%.*}.${fileTo}"; 
     done
-    
+
     echo "Done."
 }
 
@@ -26,7 +27,6 @@ ChangeFileContent()
         echo "Changing contents of $currentFile..."; 
         sed -i "s/"${fromExt}"/"${toExt}"/g" $currentFile;
     done
-    
     
     echo "Done."
 }
@@ -52,7 +52,7 @@ echo "1: Change file-extension"
 echo "2: Change the contents of a file"
 echo "3: Add Author Trademark"
 
-read option
+read -p ">> " option
 
 if [ $option = "1" ] 
 then
