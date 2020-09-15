@@ -9,10 +9,11 @@ The shell script is located in "projects" as "FileScript.sh" and may do the foll
 3. Append *copyright* to all .h and .cpp files
 ```
 
-###### Example usage
+###### CMake Guide
 [The main file may be located here](projects/RealTimeEngine/code/RealTimeEngine.cpp)
 
-```
-
-
+```cmake
+> mkdir build
+> cd build
+> cmake -DCMAKE_BUILD_TYPE=Release ./projects/RealTimeEngine/
 ```
