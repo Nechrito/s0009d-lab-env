@@ -29,18 +29,18 @@ private:
 
 	Vector3 position;
 	Vector3 direction;
-	Vector3 color = Vector3(1.0f, 1.0f, 1.0f);
+	Vector3 color = Vector3(1);
 	Vector3 cameraPosition;
 
-	float intensity		  = 1.0f;
-	float maxIntensity	  = 2.0f;
-	float intensityChange = 1.0f;
+	float intensity		  = 2.2f;
+	float maxIntensity	  = 7.0f;
+	float intensityChange = 2.0f;
 	
 	float gammaValue	  = 1.0f;
 
 public:
 
-	explicit LightNode(Model* model, const LightType type = LightType::SPOTLIGHT) : model(model), type(type), position(Vector3::Zero()) {}
+	explicit LightNode(Model* model, const LightType type = LightType::SPOTLIGHT) : model(model), type(type), position(model->GetPosition()) {}
 
 	void Render(Matrix4x4& view, Matrix4x4& projection, const std::vector<Shader>& entities) const;
 

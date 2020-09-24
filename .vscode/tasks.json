@@ -6,7 +6,12 @@
         {
             "label": "copyshaders",
             "type": "shell",
-            "command": "./scripts/copyshaders.sh"
+            "command": "./scripts/copyshaders.sh",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }

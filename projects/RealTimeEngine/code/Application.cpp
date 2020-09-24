@@ -65,7 +65,7 @@ bool Application::Open()
 
 		switch (button)
 		{
-			case 9: this->window->Close(); break; // Esc
+			case 9: exit(0); /*this->window->Close();*/ break; // Esc
 
 			case 11: rotateModel = !rotateModel; break; // 2
 			case 14: cpuRender   = !cpuRender;   break; // 5
@@ -125,7 +125,7 @@ void Application::Run()
 	glEnable(GL_CULL_FACE);
 
 	// Models
-	Model* lightModel  = new Model("models/Cube/cube.obj", "shaders/model.glsl");
+	Model* lightModel  = new Model("models/Sun/cube.obj", "shaders/model.glsl", Vector3(0, 12, 10));
 	Model* landscape   = new Model("models/Landscape/landscape.obj", "shaders/phong.glsl");
 	Model* targetModel = new Model("models/Fox/Fox.obj", "shaders/phong.glsl", Vector3(0, 0.5, 0));
 
@@ -284,13 +284,16 @@ void Application::Run()
 				continue;
 			}
 
-			const auto orbitRadius = 10;
-			const auto lightSpeed = 0.65;
-			const auto orbitX = sin(currentTime * lightSpeed) * orbitRadius;
-			const auto orbitZ = cos(currentTime * lightSpeed) * orbitRadius;
-			
-			light.SetPosition(Vector3(orbitX, 5, orbitZ) + targetPosition);
-			light.SetDirection(targetPosition);
+			if (light.GetType() == LightType::POINTLIGHT)
+			{
+				const auto orbitRadius = 10;
+				const auto lightSpeed = 0.65;
+				const auto orbitX = sin(currentTime * lightSpeed) * orbitRadius;
+				const auto orbitZ = cos(currentTime * lightSpeed) * orbitRadius;
+
+				light.SetPosition(Vector3(orbitX, 5, orbitZ) + targetPosition);
+				light.SetDirection(targetPosition);
+			}
 
 			light.SetCameraPosition(Camera::Instance().GetPosition());
 			light.Render(view, projection, shaders);

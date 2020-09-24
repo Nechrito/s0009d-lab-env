@@ -5,6 +5,8 @@
 
 #include "render/window.h"
 
+#include "SceneLoader.h"
+
 #include <vector>
 #include "LightNode.h"
 
@@ -21,6 +23,8 @@ public:
 	~Application() = default;
 	
 private:
+
+	SceneLoader Loader;
 	
 	// window wrapper 
 	Display::Window* window;
@@ -50,5 +54,5 @@ private:
 	bool drawWireframe = false;
 	bool rotateModel = false;
 	bool sprint = false;
-	bool cpuRender = true;
+	bool cpuRender = false;
 };
