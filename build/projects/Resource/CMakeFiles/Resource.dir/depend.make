@@ -14,8 +14,14 @@ projects/Resource/CMakeFiles/Resource.dir/code/MaterialResource.cpp.o: ../projec
 projects/Resource/CMakeFiles/Resource.dir/code/MaterialResource.cpp.o: ../projects/Resource/code/MaterialResource.h
 projects/Resource/CMakeFiles/Resource.dir/code/MaterialResource.cpp.o: ../projects/Resource/code/Shader.h
 
+projects/Resource/CMakeFiles/Resource.dir/code/MeshResource.cpp.o: ../engine/config.h
 projects/Resource/CMakeFiles/Resource.dir/code/MeshResource.cpp.o: ../engine/core/app.h
 projects/Resource/CMakeFiles/Resource.dir/code/MeshResource.cpp.o: ../exts/glew/include/GL/glew.h
+projects/Resource/CMakeFiles/Resource.dir/code/MeshResource.cpp.o: ../projects/LinuxAssignment/code/SceneLoader.h
+projects/Resource/CMakeFiles/Resource.dir/code/MeshResource.cpp.o: ../projects/LinuxAssignment/code/json.hpp
+projects/Resource/CMakeFiles/Resource.dir/code/MeshResource.cpp.o: ../projects/LinuxAssignment/code/stb_image.h
+projects/Resource/CMakeFiles/Resource.dir/code/MeshResource.cpp.o: ../projects/LinuxAssignment/code/stb_image_write.h
+projects/Resource/CMakeFiles/Resource.dir/code/MeshResource.cpp.o: ../projects/LinuxAssignment/code/tiny_gltf.h
 projects/Resource/CMakeFiles/Resource.dir/code/MeshResource.cpp.o: ../projects/MathLib/code/CMath.h
 projects/Resource/CMakeFiles/Resource.dir/code/MeshResource.cpp.o: ../projects/MathLib/code/CString.h
 projects/Resource/CMakeFiles/Resource.dir/code/MeshResource.cpp.o: ../projects/MathLib/code/Vector2.h

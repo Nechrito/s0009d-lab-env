@@ -13,6 +13,8 @@
 #include "Vector4.h"
 #include "Vertex.h"
 
+#include "SceneLoader.h"
+
 class MeshResource
 {
 public:
@@ -27,6 +29,9 @@ public:
 	void Destroy() const;
 
 private:
+	//SceneLoader gltfLoader;
+	bool isGLTF = false;
+
 	std::vector<Vector4> normals;
 	std::vector<Vector2> textureCoordinates;
 	std::vector<Vector4> positions;

@@ -10,6 +10,9 @@
 #include "Transform.h"
 #include "MaterialResource.h"
 
+#include "SceneLoader.h"
+#include "tiny_gltf.h"
+
 class Model
 {
 public:
@@ -43,6 +46,9 @@ public:
 	~Model();
 	
 private:
+	bool IsGLTF = false;
+	
+
 	std::string directory;
 	std::vector<std::string> materialNamesFound;
 	

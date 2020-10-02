@@ -92,34 +92,6 @@ GL/glu.h
 
 ../exts/nanovg/src/nanovg.h
 
-../exts/nanovg/src/stb_image.h
-stb_image.h
-../exts/nanovg/src/stb_image.h
-stdio.h
--
-stdarg.h
--
-stddef.h
--
-stdlib.h
--
-string.h
--
-math.h
--
-stdio.h
--
-assert.h
--
-stdint.h
--
-emmintrin.h
--
-intrin.h
--
-arm_neon.h
--
-
 ../projects/LinuxAssignment/code/HardwareSpecs.h
 unistd.h
 ../projects/LinuxAssignment/code/unistd.h
@@ -129,8 +101,8 @@ thread
 -
 
 ../projects/LinuxAssignment/code/SceneLoader.h
-core/app.h
-../projects/LinuxAssignment/code/core/app.h
+config.h
+../projects/LinuxAssignment/code/config.h
 fstream
 -
 iostream
@@ -424,6 +396,38 @@ vector
 utility
 -
 
+../projects/LinuxAssignment/code/stb_image.h
+stb_image.h
+../projects/LinuxAssignment/code/stb_image.h
+stdio.h
+-
+stdlib.h
+-
+stdarg.h
+-
+stddef.h
+-
+stdlib.h
+-
+string.h
+-
+limits.h
+-
+math.h
+-
+stdio.h
+-
+assert.h
+-
+stdint.h
+-
+emmintrin.h
+-
+intrin.h
+-
+arm_neon.h
+-
+
 ../projects/LinuxAssignment/code/stb_image_write.h
 stdlib.h
 -
@@ -599,6 +603,8 @@ Vector4.h
 ../projects/Resource/code/Vector4.h
 Vertex.h
 ../projects/Resource/code/Vertex.h
+SceneLoader.h
+../projects/Resource/code/SceneLoader.h
 
 ../projects/Resource/code/Shader.h
 core/app.h
@@ -655,8 +661,6 @@ cmath
 /home/philar-8/s0017d-1-linux-scripting-Nechrito/projects/RealTimeEngine/code/Application.h
 render/window.h
 /home/philar-8/s0017d-1-linux-scripting-Nechrito/projects/RealTimeEngine/code/render/window.h
-SceneLoader.h
-/home/philar-8/s0017d-1-linux-scripting-Nechrito/projects/RealTimeEngine/code/SceneLoader.h
 vector
 -
 LightNode.h
@@ -707,6 +711,10 @@ Transform.h
 /home/philar-8/s0017d-1-linux-scripting-Nechrito/projects/RealTimeEngine/code/Transform.h
 MaterialResource.h
 /home/philar-8/s0017d-1-linux-scripting-Nechrito/projects/RealTimeEngine/code/MaterialResource.h
+SceneLoader.h
+/home/philar-8/s0017d-1-linux-scripting-Nechrito/projects/RealTimeEngine/code/SceneLoader.h
+tiny_gltf.h
+/home/philar-8/s0017d-1-linux-scripting-Nechrito/projects/RealTimeEngine/code/tiny_gltf.h
 
 /home/philar-8/s0017d-1-linux-scripting-Nechrito/projects/RealTimeEngine/code/RealTimeEngine.cpp
 config.h

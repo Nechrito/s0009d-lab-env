@@ -26,6 +26,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../exts/imgui/examples/opengl3_example"
   "../exts/nanovg/src"
   "../projects/MathLib/code"
+  "../projects/LinuxAssignment/code"
   )
 
 # Targets to which this target links.
@@ -33,6 +34,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/philar-8/s0017d-1-linux-scripting-Nechrito/build/engine/core/CMakeFiles/core.dir/DependInfo.cmake"
   "/home/philar-8/s0017d-1-linux-scripting-Nechrito/build/engine/render/CMakeFiles/render.dir/DependInfo.cmake"
   "/home/philar-8/s0017d-1-linux-scripting-Nechrito/build/projects/MathLib/CMakeFiles/MathLib.dir/DependInfo.cmake"
+  "/home/philar-8/s0017d-1-linux-scripting-Nechrito/build/projects/LinuxAssignment/CMakeFiles/LinuxAssignment.dir/DependInfo.cmake"
   "/home/philar-8/s0017d-1-linux-scripting-Nechrito/build/exts/glew/CMakeFiles/glew.dir/DependInfo.cmake"
   "/home/philar-8/s0017d-1-linux-scripting-Nechrito/build/exts/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "/home/philar-8/s0017d-1-linux-scripting-Nechrito/build/exts/CMakeFiles/imgui.dir/DependInfo.cmake"

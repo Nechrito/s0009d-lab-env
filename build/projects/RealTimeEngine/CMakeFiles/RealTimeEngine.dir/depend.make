@@ -7,9 +7,9 @@ projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/Application.cpp.o: ..
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/Application.cpp.o: ../exts/glew/include/GL/glew.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/Application.cpp.o: ../exts/glfw/include/GLFW/glfw3.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/Application.cpp.o: ../exts/nanovg/src/nanovg.h
-projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/Application.cpp.o: ../exts/nanovg/src/stb_image.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/Application.cpp.o: ../projects/LinuxAssignment/code/SceneLoader.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/Application.cpp.o: ../projects/LinuxAssignment/code/json.hpp
+projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/Application.cpp.o: ../projects/LinuxAssignment/code/stb_image.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/Application.cpp.o: ../projects/LinuxAssignment/code/stb_image_write.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/Application.cpp.o: ../projects/LinuxAssignment/code/tiny_gltf.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/Application.cpp.o: ../projects/MathLib/code/CMath.h
@@ -43,8 +43,14 @@ projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/Camera.cpp.o: ../proj
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/Camera.cpp.o: ../projects/RealTimeEngine/code/Camera.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/Camera.cpp.o: ../projects/RealTimeEngine/code/Transform.h
 
+projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/LightNode.cpp.o: ../engine/config.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/LightNode.cpp.o: ../engine/core/app.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/LightNode.cpp.o: ../exts/glew/include/GL/glew.h
+projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/LightNode.cpp.o: ../projects/LinuxAssignment/code/SceneLoader.h
+projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/LightNode.cpp.o: ../projects/LinuxAssignment/code/json.hpp
+projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/LightNode.cpp.o: ../projects/LinuxAssignment/code/stb_image.h
+projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/LightNode.cpp.o: ../projects/LinuxAssignment/code/stb_image_write.h
+projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/LightNode.cpp.o: ../projects/LinuxAssignment/code/tiny_gltf.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/LightNode.cpp.o: ../projects/MathLib/code/CMath.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/LightNode.cpp.o: ../projects/MathLib/code/CString.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/LightNode.cpp.o: ../projects/MathLib/code/Matrix4x4.h
@@ -64,8 +70,14 @@ projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/LightNode.cpp.o: ../p
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/LightNode.cpp.o: ../projects/RealTimeEngine/code/Model.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/LightNode.cpp.o: ../projects/RealTimeEngine/code/Transform.h
 
+projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/Model.cpp.o: ../engine/config.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/Model.cpp.o: ../engine/core/app.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/Model.cpp.o: ../exts/glew/include/GL/glew.h
+projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/Model.cpp.o: ../projects/LinuxAssignment/code/SceneLoader.h
+projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/Model.cpp.o: ../projects/LinuxAssignment/code/json.hpp
+projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/Model.cpp.o: ../projects/LinuxAssignment/code/stb_image.h
+projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/Model.cpp.o: ../projects/LinuxAssignment/code/stb_image_write.h
+projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/Model.cpp.o: ../projects/LinuxAssignment/code/tiny_gltf.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/Model.cpp.o: ../projects/MathLib/code/CMath.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/Model.cpp.o: ../projects/MathLib/code/CString.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/Model.cpp.o: ../projects/MathLib/code/Matrix4x4.h
@@ -90,10 +102,10 @@ projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/RealTimeEngine.cpp.o:
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/RealTimeEngine.cpp.o: ../exts/glew/include/GL/glew.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/RealTimeEngine.cpp.o: ../exts/glfw/include/GLFW/glfw3.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/RealTimeEngine.cpp.o: ../exts/nanovg/src/nanovg.h
-projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/RealTimeEngine.cpp.o: ../exts/nanovg/src/stb_image.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/RealTimeEngine.cpp.o: ../projects/LinuxAssignment/code/HardwareSpecs.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/RealTimeEngine.cpp.o: ../projects/LinuxAssignment/code/SceneLoader.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/RealTimeEngine.cpp.o: ../projects/LinuxAssignment/code/json.hpp
+projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/RealTimeEngine.cpp.o: ../projects/LinuxAssignment/code/stb_image.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/RealTimeEngine.cpp.o: ../projects/LinuxAssignment/code/stb_image_write.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/RealTimeEngine.cpp.o: ../projects/LinuxAssignment/code/tiny_gltf.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/RealTimeEngine.cpp.o: ../projects/MathLib/code/CMath.h
@@ -115,8 +127,14 @@ projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/RealTimeEngine.cpp.o:
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/RealTimeEngine.cpp.o: ../projects/RealTimeEngine/code/RealTimeEngine.cpp
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/RealTimeEngine.cpp.o: ../projects/RealTimeEngine/code/Transform.h
 
+projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/SoftwareRenderer.cpp.o: ../engine/config.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/SoftwareRenderer.cpp.o: ../engine/core/app.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/SoftwareRenderer.cpp.o: ../exts/glew/include/GL/glew.h
+projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/SoftwareRenderer.cpp.o: ../projects/LinuxAssignment/code/SceneLoader.h
+projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/SoftwareRenderer.cpp.o: ../projects/LinuxAssignment/code/json.hpp
+projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/SoftwareRenderer.cpp.o: ../projects/LinuxAssignment/code/stb_image.h
+projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/SoftwareRenderer.cpp.o: ../projects/LinuxAssignment/code/stb_image_write.h
+projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/SoftwareRenderer.cpp.o: ../projects/LinuxAssignment/code/tiny_gltf.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/SoftwareRenderer.cpp.o: ../projects/MathLib/code/CMath.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/SoftwareRenderer.cpp.o: ../projects/MathLib/code/CString.h
 projects/RealTimeEngine/CMakeFiles/RealTimeEngine.dir/code/SoftwareRenderer.cpp.o: ../projects/MathLib/code/Matrix4x4.h

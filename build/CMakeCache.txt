@@ -306,7 +306,7 @@ RealTimeEngine_SOURCE_DIR:STATIC=/home/philar-8/s0017d-1-linux-scripting-Nechrit
 Resource_BINARY_DIR:STATIC=/home/philar-8/s0017d-1-linux-scripting-Nechrito/build/projects/Resource
 
 //Dependencies for the target
-Resource_LIB_DEPENDS:STATIC=general;-lstdc++fs;general;core;general;render;general;MathLib;
+Resource_LIB_DEPENDS:STATIC=general;-lstdc++fs;general;core;general;render;general;MathLib;general;LinuxAssignment;
 
 //Value Computed by CMake
 Resource_SOURCE_DIR:STATIC=/home/philar-8/s0017d-1-linux-scripting-Nechrito/projects/Resource

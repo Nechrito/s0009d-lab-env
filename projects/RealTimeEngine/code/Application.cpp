@@ -121,13 +121,16 @@ void Application::Run()
 {
 	// Hides unseen faces through culling, can be seen through wireframe-mode 
 	glEnable(GL_DEPTH_TEST);
-	glDepthFunc(GL_LESS);
-	glEnable(GL_CULL_FACE);
+  	glDepthFunc(GL_LESS);
+
+  	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+  	glEnable(GL_BLEND);
 
 	// Models
 	Model* lightModel  = new Model("models/Sun/cube.obj", "shaders/model.glsl", Vector3(0, 12, 10));
 	Model* landscape   = new Model("models/Landscape/landscape.obj", "shaders/phong.glsl");
-	Model* targetModel = new Model("models/Fox/Fox.obj", "shaders/phong.glsl", Vector3(0, 0.5, 0));
+	//Model* targetModel = new Model("models/Fox/Fox.obj", "shaders/phong.glsl", Vector3(0, 0.1, 0));
+	Model* targetModel = new Model("models/FoxGLTF/Fox.gltf", "shaders/phong.glsl", Vector3(0, 0.1, 0));
 
 	// Lights
 	this->lightNodes.emplace_back(lightModel, LightType::SPOTLIGHT);
@@ -198,7 +201,7 @@ void Application::Run()
 	Screen screen(renderer);
 	screen.AddRenderableObject(lightModel);
 	screen.AddRenderableObject(targetModel);
-	//screen.AddRenderableObject(landscape);
+	screen.AddRenderableObject(landscape);
 	
 	// Entities referenced shader
 	std::vector<Shader> shaders;

@@ -15,8 +15,14 @@ projects/Resource/CMakeFiles/Resource.dir/code/MaterialResource.cpp.o
  /home/philar-8/s0017d-1-linux-scripting-Nechrito/projects/Resource/code/MaterialResource.h
  /home/philar-8/s0017d-1-linux-scripting-Nechrito/projects/Resource/code/Shader.h
 projects/Resource/CMakeFiles/Resource.dir/code/MeshResource.cpp.o
+ ../engine/config.h
  ../engine/core/app.h
  ../exts/glew/include/GL/glew.h
+ ../projects/LinuxAssignment/code/SceneLoader.h
+ ../projects/LinuxAssignment/code/json.hpp
+ ../projects/LinuxAssignment/code/stb_image.h
+ ../projects/LinuxAssignment/code/stb_image_write.h
+ ../projects/LinuxAssignment/code/tiny_gltf.h
  ../projects/MathLib/code/CMath.h
  ../projects/MathLib/code/CString.h
  ../projects/MathLib/code/Vector2.h

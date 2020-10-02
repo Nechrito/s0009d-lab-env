@@ -5,8 +5,6 @@
 
 #include "render/window.h"
 
-#include "SceneLoader.h"
-
 #include <vector>
 #include "LightNode.h"
 

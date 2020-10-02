@@ -6,6 +6,7 @@
 #include <fstream>
 #include "VBOTrimmer.h"
 
+
 bool MeshResource::Load(const std::string& path)
 {
 	if (ReadObj(path))
@@ -18,6 +19,13 @@ bool MeshResource::Load(const std::string& path)
 
 void MeshResource::Draw() const
 {
+
+	if (isGLTF)
+	{
+
+		return;
+	}
+
 	// vertex Positions
 	glEnableVertexAttribArray(0);
 	glBindBuffer(GL_ARRAY_BUFFER, positionBuffer);

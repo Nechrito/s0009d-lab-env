@@ -175,6 +175,7 @@ projects/RealTimeEngine/RealTimeEngine: projects/MathLib/libMathLib.a
 projects/RealTimeEngine/RealTimeEngine: projects/LinuxAssignment/libLinuxAssignment.a
 projects/RealTimeEngine/RealTimeEngine: projects/Resource/libResource.a
 projects/RealTimeEngine/RealTimeEngine: projects/GLSL/libGLSL.a
+projects/RealTimeEngine/RealTimeEngine: projects/LinuxAssignment/libLinuxAssignment.a
 projects/RealTimeEngine/RealTimeEngine: projects/MathLib/libMathLib.a
 projects/RealTimeEngine/RealTimeEngine: engine/core/libcore.a
 projects/RealTimeEngine/RealTimeEngine: engine/render/librender.a

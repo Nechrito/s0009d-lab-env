@@ -717,6 +717,7 @@ projects/Resource/CMakeFiles/Resource.dir/all: exts/CMakeFiles/imgui.dir/all
 projects/Resource/CMakeFiles/Resource.dir/all: exts/glew/CMakeFiles/glew.dir/all
 projects/Resource/CMakeFiles/Resource.dir/all: exts/glfw/src/CMakeFiles/glfw.dir/all
 projects/Resource/CMakeFiles/Resource.dir/all: engine/core/CMakeFiles/core.dir/all
+projects/Resource/CMakeFiles/Resource.dir/all: projects/LinuxAssignment/CMakeFiles/LinuxAssignment.dir/all
 projects/Resource/CMakeFiles/Resource.dir/all: projects/MathLib/CMakeFiles/MathLib.dir/all
 	$(MAKE) -f projects/Resource/CMakeFiles/Resource.dir/build.make projects/Resource/CMakeFiles/Resource.dir/depend
 	$(MAKE) -f projects/Resource/CMakeFiles/Resource.dir/build.make projects/Resource/CMakeFiles/Resource.dir/build
@@ -730,7 +731,7 @@ all: projects/Resource/CMakeFiles/Resource.dir/all
 
 # Build rule for subdir invocation for target.
 projects/Resource/CMakeFiles/Resource.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/philar-8/s0017d-1-linux-scripting-Nechrito/build/CMakeFiles 39
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/philar-8/s0017d-1-linux-scripting-Nechrito/build/CMakeFiles 41
 	$(MAKE) -f CMakeFiles/Makefile2 projects/Resource/CMakeFiles/Resource.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/philar-8/s0017d-1-linux-scripting-Nechrito/build/CMakeFiles 0
 .PHONY : projects/Resource/CMakeFiles/Resource.dir/rule

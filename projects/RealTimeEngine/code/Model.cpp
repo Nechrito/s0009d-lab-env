@@ -10,7 +10,11 @@ void Model::Init(const std::string& modelPath, const char* shaderPath, Vector3 p
 {
 	this->directory = CString::ExcludeFileFromPath(modelPath);
 	
-	std::cout << "Loading: " << CString::RetrieveFilesOfType(directory, ".obj")[0] << "\n";
+	auto fileType = CString::FileType(modelPath);
+	auto filesOfType = CString::RetrieveFilesOfType(directory, fileType)[0];
+	this->IsGLTF = fileType == ".gltf";
+
+	std::cout << "Loading: " << filesOfType << "\n";
 
 	this->transform			= std::make_shared<Transform>();
 	this->meshResource		= std::make_shared<MeshResource>();
