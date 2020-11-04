@@ -1,0 +1,427 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						5,
+						8
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "exts",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "exts",
+					"targetIndexes" : 
+					[
+						8,
+						9
+					]
+				},
+				{
+					"build" : "exts/glew",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "exts/glew",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "exts/glfw",
+					"childIndexes" : 
+					[
+						4
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "exts/glfw"
+				},
+				{
+					"build" : "exts/glfw/src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "exts/glfw/src",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "engine",
+					"childIndexes" : 
+					[
+						6,
+						7
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "engine"
+				},
+				{
+					"build" : "engine/core",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "engine/core",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "engine/render",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "engine/render",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "projects",
+					"childIndexes" : 
+					[
+						9,
+						10,
+						11,
+						12,
+						13
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "projects"
+				},
+				{
+					"build" : "projects/GLSL",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 3,
+					"source" : "projects/GLSL",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "projects/LinuxAssignment",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 4,
+					"source" : "projects/LinuxAssignment",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "projects/MathLib",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 5,
+					"source" : "projects/MathLib",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "projects/RealTimeEngine",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 6,
+					"source" : "projects/RealTimeEngine",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "projects/Resource",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 7,
+					"source" : "projects/Resource",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "gscept_lab_env",
+					"targetIndexes" : 
+					[
+						5,
+						8,
+						9,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "glew",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "GLSL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "LinuxAssignment",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "MathLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "RealTimeEngine",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "Resource",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 9,
+					"id" : "GLSL::@1bb50da5dbdd367ec6d4",
+					"jsonFile" : "target-GLSL-Debug-83a4da36e2c93821ef94.json",
+					"name" : "GLSL",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "LinuxAssignment::@77bf7c31024cd54ac45c",
+					"jsonFile" : "target-LinuxAssignment-Debug-a90bf86c8344001f6582.json",
+					"name" : "LinuxAssignment",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "MathLib::@67e2630961f8a6a27ebd",
+					"jsonFile" : "target-MathLib-Debug-247475d2b3f798846e20.json",
+					"name" : "MathLib",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "RealTimeEngine::@1b7c38498203f695ecf9",
+					"jsonFile" : "target-RealTimeEngine-Debug-26d52be41f8a4f257ebc.json",
+					"name" : "RealTimeEngine",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "Resource::@8babbc02661486524f75",
+					"jsonFile" : "target-Resource-Debug-6315b61738da72253aab.json",
+					"name" : "Resource",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "core::@daec77c92998606c5111",
+					"jsonFile" : "target-core-Debug-cc3132b3bb0c6fb66069.json",
+					"name" : "core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glew::@710e69b0c5555f599eaa",
+					"jsonFile" : "target-glew-Debug-02d972a4fa7395599d33.json",
+					"name" : "glew",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "glfw::@766e2fc5a7847ac43afc",
+					"jsonFile" : "target-glfw-Debug-d598efc74d3541634184.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "imgui::@91fdfbc389eb79cc7eac",
+					"jsonFile" : "target-imgui-Debug-dd43da108fc0feeee401.json",
+					"name" : "imgui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "nanovg::@91fdfbc389eb79cc7eac",
+					"jsonFile" : "target-nanovg-Debug-932354abb499e9e87460.json",
+					"name" : "nanovg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "render::@d03e0f9399c2d8dcbd5e",
+					"jsonFile" : "target-render-Debug-f06c48839305d8f8c7b9.json",
+					"name" : "render",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/d/Repositories/s0009d-lab-en/build",
+		"source" : "/mnt/d/Repositories/s0009d-lab-en"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
