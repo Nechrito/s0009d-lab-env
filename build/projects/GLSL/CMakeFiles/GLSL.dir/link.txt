@@ -1,2 +1,0 @@
-/usr/bin/ar qc libGLSL.a  CMakeFiles/GLSL.dir/code/GLSL.cpp.o
-/usr/bin/ranlib libGLSL.a
